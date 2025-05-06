@@ -14,7 +14,7 @@ export const BlogSchema = z.object({
         example: 1
     }),
     title: z.string().openapi({
-        example: "honteを作った。"
+        example: "honoteを作った。"
     }),
     content: z.string().openapi({
         example: "まだまだhono勉強中だけど、ちょっとわかってきた。"
